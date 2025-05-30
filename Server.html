@@ -24,4 +24,57 @@
       0% { background: linear-gradient(45deg, #FBFBFB, #E8F9FF, #C4D9FF); }
       100% { background: linear-gradient(45deg, #C4D9FF, #FBFBFB, #E8F9FF); }
     }
+    </style>
+</head>
+<body>
+  <div class="grid-pattern"></div>
+  
+  <div class="container">
+    <div class="header">
+      <div class="logo">EDITH</div>
+      <div class="subtitle">Enhanced Interface For Transparent Holography</div>
+      <div class="tagline">"Developed by Adi" - Powered by Gemini AI</div>
+    </div>
     
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="terminal-buttons">
+          <div class="terminal-button red"></div>
+          <div class="terminal-button yellow"></div>
+          <div class="terminal-button green"></div>
+        </div>
+        <div class="terminal-title">Gemini AI Assistant + OLED Display v2.0</div>
+      </div>
+      
+      <div class="oled-status">
+        <div class="oled-indicator">📟 OLED Display Status: Active</div>
+        <div style="font-size: 0.9em; color: #718096;">Questions and responses will be displayed on the 1.3" OLED screen in two 15-word parts</div>
+      </div>
+      
+      <form method="POST" class="input-section">
+        <label class="input-label">Enter Query:</label>
+        <div class="input-container">
+          <input type="text" name="geminitext" class="query-input" placeholder="Ask EDITH anything..." required autocomplete="off">
+          <button type="submit" class="submit-btn">Execute</button>
+        </div>
+      </form>
+      
+      %RESPONSE%
+    </div>
+  </div>
+  
+  <div class="status-bar">
+    <div class="status-item">
+      <div class="status-dot"></div>
+      <span>System Online</span>
+    </div>
+    <div class="status-item">
+      <span>EDITH v2.0 | Gemini AI + OLED | Secure Connection</span>
+    </div>
+    <div class="status-item">
+      <span>Ready for Commands</span>
+    </div>
+  </div>
+</body>
+</html>
+)rawliteral";
