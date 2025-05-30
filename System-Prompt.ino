@@ -13,7 +13,7 @@ const char* ssid = "Aditya08";
 const char* password = "heyheyhey";
 
 // Your Gemini API key (replace with your actual key!)
-const char* Gemini_Token = "AIzaSyCncWBwCDJHYBHq12louPCfm8i1dlfuxJA";
+const char* Gemini_Token = "Add your gemini API Key";
 const char* Gemini_Max_Tokens = "50";
 
 // System prompt for EDITH
