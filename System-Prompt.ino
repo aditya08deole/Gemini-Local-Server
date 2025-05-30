@@ -1,3 +1,5 @@
+// Developed by Aditya Deole
+// deoleadi@gmail.com
 #include <Arduino.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
